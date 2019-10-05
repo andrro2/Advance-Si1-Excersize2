@@ -10,6 +10,11 @@ namespace Excersize2
     {
         static void Main(string[] args)
         {
+            DateTime birthDate = new DateTime(2000, 05, 24);
+            Employee employee = new Employee("Jack", birthDate, Gender.FEMALE, 5000, "Engineer");
+            Console.WriteLine(employee);
+            Console.WriteLine("Press enter to exit");
+            Console.ReadLine();
         }
     }
 }
